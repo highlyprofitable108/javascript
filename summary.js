@@ -1,5 +1,4 @@
 $("#summarydiv").click(function(e){ 
-  e.preventDefault(); 
-  window.location.href = "http://www68.myfantasyleague.com/2017/home/48963?MODULE=MESSAGE13";
+  e.window.location.href = "http://www68.myfantasyleague.com/2017/home/48963?MODULE=MESSAGE13";
 });
 
