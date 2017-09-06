@@ -1,4 +1,3 @@
-$("#summarydiv").click(function () {
-    window.location = "http://www68.myfantasyleague.com/2017/home/48963?MODULE=MESSAGE13";
-    return false;
+$("#summarydiv").click(function(){ 
+    Event.preventDefault(); 
 });
