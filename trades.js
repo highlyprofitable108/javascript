@@ -1,4 +1,4 @@
-if($("#tradediv").text().match([1-9])) {
+if($("#tradediv").text().match([1])) {
     $("#tradediv").show();
     $("#tradediv").effect( "pulsate", {times:5}, 5000 );
 } else {
