@@ -1,1 +1,2 @@
 $("#matchdiv").hide();
+$("#scorediv").hide();
