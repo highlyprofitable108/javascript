@@ -1,6 +1,6 @@
-if($("#tradediv").text().match([1-9])){
-    $("#tradediv").show();
-    $("#tradediv").effect( "pulsate", {times:5}, 5000 );
+if($('div.tradediv').text().match([1-9])){
+    $('div.tradediv').show();
+    $('div.tradediv').effect( "pulsate", {times:5}, 5000 );
 } else {
-    $("#tradediv").hide();
+    $('div.tradediv').hide();
 }
