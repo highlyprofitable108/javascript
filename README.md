@@ -1,3 +1,3 @@
-# javascript
+# MyFantasyLeague Stuff
 
-Scripting
+JavaScripting for MyFantasyLeague
