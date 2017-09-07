@@ -18,5 +18,4 @@ if(today.getDay() == 3 || today.getDay() == 4) {
 function removeElement(ele) {
     ele.parentNode.removeChild(ele);
 }
-
-removeElement(document.getElementById("//www.nitrografixx.com/MFL-Popups/alert-icon-orange.png"));
+$('img[src="http://www.nitrografixx.com/MFL-Popups/alert-icon-orange.png"]').remove();
