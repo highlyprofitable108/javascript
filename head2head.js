@@ -15,4 +15,8 @@ if(today.getDay() == 3 || today.getDay() == 4) {
     $("#lastdiv").hide();
     $("#last2div").hide();
 }
-$("#icon-wrapper").hide();
+function removeElement(ele) {
+    ele.parentNode.removeChild(ele);
+}
+
+removeElement(document.getElementById("//www.nitrografixx.com/MFL-Popups/alert-icon-orange.png"));
