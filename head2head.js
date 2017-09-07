@@ -1,10 +1,18 @@
 var today = new Date();
-if(today.getDay() == 2 || today.getDay() == 3 || today.getDay() == 4) {
+if(today.getDay() == 3 || today.getDay() == 4) {
     $("#matchdiv").show();
     $("#scorediv").hide();
     $("#lastdiv").show();
-} else {
-    $("#scorediv").show();
-    $("#matchdiv").hide();
+    $("#last2div").hide();
+} else if(today.getDay() == 2) {
+    $("#matchdiv").show();
+    $("#scorediv").hide();
     $("#lastdiv").hide();
+    $("#last2div").show();
+} else {
+    $("#matchdiv").hide();
+    $("#scorediv").show();
+    $("#lastdiv").hide();
+    $("#last2div").hide();
 }
+
