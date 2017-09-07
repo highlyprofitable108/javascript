@@ -1,5 +1,5 @@
 var today = new Date();
-if(today.getDay() == 0 || today.getDay() == 1) {
+if(today.getDay() == 1) {
     $("#articlediv").hide();
     $("#standdiv").hide();
     $("#stand2div").hide();
