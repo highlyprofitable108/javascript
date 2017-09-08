@@ -1,5 +1,5 @@
 var today = new Date();
-if(today.getDay() == 3 || today.getDay() == 4) {
+if(today.getDay() == 3) {
     $("#matchdiv").show();
     $("#scorediv").hide();
     $("#lastdiv").show();
@@ -9,6 +9,11 @@ if(today.getDay() == 3 || today.getDay() == 4) {
     $("#scorediv").hide();
     $("#lastdiv").hide();
     $("#last2div").show();
+} else if(today.getDay() == 4) {
+    $("#matchdiv").show();
+    $("#scorediv").show();
+    $("#lastdiv").hide();
+    $("#last2div").hide();
 } else {
     $("#matchdiv").hide();
     $("#scorediv").show();
