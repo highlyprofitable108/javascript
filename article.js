@@ -1,5 +1,5 @@
 var today = new Date();
-if(today.getDay() == 1 ||today.getDay() == 2) {
+if(today.getDay() == 1 || today.getDay() == 2) {
     $("#articlediv").show();
     $("#standdiv").show();
     $("#stand2div").show();
