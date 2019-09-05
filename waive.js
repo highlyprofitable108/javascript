@@ -6,5 +6,5 @@ if($("#waivediv").text().match([1])){
 }
 $("#waivediv").click(function(){ 
     event.preventDefault();
-    window.location.href = "http://www68.myfantasyleague.com/2017/add_drop?L=48963";
+    window.location.href = "http://www68.myfantasyleague.com/2019/add_drop?L=48963";
 });
