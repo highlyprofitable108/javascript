@@ -1,4 +1,7 @@
-if($("#waive2div").text().match([1])){
+if(window.location.href.indexOf("add_drop") > -1) {
+     alert("Alert: Desktop!");
+     $("#waivediv").hide();
+} else if($("#waive2div").text().match([1])){
     alert(window.location.href.indexOf("add_drop"));
     $("#waive2div").show();
 } else {
