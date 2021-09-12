@@ -7,6 +7,4 @@ if($("#waivediv").text().match([1])){
 if(window.location.href.indexOf("Add/Drop") > -1) {
        alert("Alert: Desktop!");
        $("#waivediv").hide();
-}{
-
 }
