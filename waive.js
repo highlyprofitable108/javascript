@@ -4,9 +4,3 @@ if($("#waivediv").text().match([1])){
 } else {
     $("#waivediv").hide();
 }
-if(window.location.href.indexOf("add_drop") > -1) {
-    alert("Alert: Desktop!");
-    $("#waivediv").hide();
-} else {
-    alert("Alert: NOPE!");
-}
