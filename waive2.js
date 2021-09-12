@@ -1,4 +1,7 @@
-if($("#waive2div").text().match([1])){
+if(window.location.href.indexOf("add_drop") > -1) {
+    alert("Alert: Desktop!");
+    $("#waive2div").hide();
+} else if($("#waive2div").text().match([1])){
     $("#waive2div").show();
     $("#waive2div").effect( "pulsate", {times:5}, 5000 );
 } else {
