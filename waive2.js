@@ -1,9 +1,8 @@
-if(window.location.href.indexOf("add_drop") > -1) {
+if (window.location.href.indexOf("add_drop") > -1) {
     $("#waive2div").hide();
 } else if($("#waive2div").text().match([1])){
     alert(window.location.href.indexOf("add_drop"));
     $("#waive2div").show();
-    $("#waive2div").effect( "pulsate", {times:5}, 5000 );
 } else {
     $("#waive2div").hide();
 }
