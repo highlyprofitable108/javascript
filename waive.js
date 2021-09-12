@@ -1,6 +1,6 @@
 if(window.location.href.indexOf("add_drop") > -1) {
      $("#waivediv").hide();
-} else if($("#waive2div").text().match([1])){
+} else if($("#waivediv").text().match([1])){
     $("#waivediv").show();
 } else {
     $("#waivediv").hide();
