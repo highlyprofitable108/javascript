@@ -4,6 +4,9 @@ if($("#waivediv").text().match([1])){
 } else {
     $("#waivediv").hide();
 }
-if (window.location.pathname.includes("add_drop")){
-   $("#waivediv").hide();
+if(window.location.href.indexOf("Add/Drop") > -1) {
+       alert("Alert: Desktop!");
+       $("#waivediv").hide();
+}{
+
 }
