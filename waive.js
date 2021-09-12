@@ -1,10 +1,10 @@
-if($("#waivediv").text().match([1])){
-    $("#waivediv").show();
-    $("#waivediv").effect( "pulsate", {times:5}, 5000 );
+if($("#waive2div").text().match([1])){
+    alert(window.location.href.indexOf("add_drop"));
+    $("#waive2div").show();
 } else {
-    $("#waivediv").hide();
+    $("#waive2div").hide();
 }
-$("#waivediv").click(function()){ 
+$("#waive2div").click(function(){ 
     event.preventDefault();
-    window.location.href = "http://www68.myfantasyleague.com/2017/add_drop?L=48963";
+    window.location.href = "http://www68.myfantasyleague.com/2021/add_drop?L=48963";
 });
