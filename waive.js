@@ -4,6 +4,6 @@ if($("#waivediv").text().match([1])){
 } else {
     $("#waivediv").hide();
 }
-if($("mobile-wrap").text().match("Current Waiver Claims"){
+if (window.location.pathname.includes("add_drop")){
    $("#waivediv").hide();
 }
