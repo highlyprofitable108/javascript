@@ -4,7 +4,7 @@ if($("#waivediv").text().match([1])){
 } else {
     $("#waivediv").hide();
 }
-$("#waivediv").click(function(){ 
+$("#waivediv").click(function()){ 
     event.preventDefault();
     window.location.href = "http://www68.myfantasyleague.com/2017/add_drop?L=48963";
 });
