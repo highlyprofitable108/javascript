@@ -4,6 +4,6 @@ if($("#waivediv").text().match([1])){
 } else {
     $("#waivediv").hide();
 }
-if($("container-wrap").text().match("CURRENT WAIVER CLAIMS"){
+if($("container-wrap").text().match("Current Waiver Claims"){
    $("#waivediv").hide();
 }
