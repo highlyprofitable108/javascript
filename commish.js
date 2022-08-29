@@ -5,5 +5,5 @@ if(window.location.href.indexOf("home/48963") > -1) {
 }
 $("#commishdiv").click(function(){ 
     event.preventDefault();
-    window.location.href = "http://www68.myfantasyleague.com/2021/add_drop?L=48963";
+    window.location.href = "http://www68.myfantasyleague.com/2022/add_drop?L=48963";
 });
